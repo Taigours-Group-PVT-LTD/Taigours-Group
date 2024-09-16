@@ -1,0 +1,161 @@
+﻿/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3d3737;
+    text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    height: 100px;
+    background-color: aqua;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+    .icon img {
+        width: 15%;
+        height: auto;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+.textlogo {
+    font-size: 2em;
+    margin-top: 60px;
+}
+
+.pvt {
+    margin-top: 80px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 15px;
+}
+
+    .menu ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+        .menu ul li {
+            margin: 10px;
+            font-size: 16px;
+        }
+
+            .menu ul li a {
+                text-decoration: none;
+                color: #fff;
+                margin-left: 100px;
+                letter-spacing: 1.5px;
+                transition: 0.2s ease-in-out;
+            }
+
+                .menu ul li a:hover {
+                    font-size: 18px;
+                    color: aquamarine;
+                }
+
+.Container{
+    background-color:#fff;
+    margin-top:250px;
+    
+}
+
+
+
+
+
+
+
+
+/* Follow Us Social Media Icons */
+.followbtn h1 {
+    color: #fff;
+}
+
+.followbtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 0px;
+    background-color: #ef6324;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.social-icon {
+    font-size: 3.5em; /* Increased from 2.5em to 3.5em */
+    transition: transform 0.3s ease-in-out;
+}
+
+    .social-icon:hover {
+        transform: scale(1.15); /* Slightly increased hover effect */
+    }
+
+@media only screen and (max-width: 768px) {
+    .textlogo {
+        font-size: 1.5em;
+    }
+
+    .menu ul li {
+        margin: 5px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .logo img {
+        height: 15%;
+        width: 15%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .icon img {
+        width: 30%;
+    }
+
+    .textlogo {
+        font-size: 1.2em;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+        .menu ul li {
+            margin: 10px 0;
+        }
+
+    .button {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+}

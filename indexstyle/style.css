@@ -1,49 +1,49 @@
-﻿/* General Body Styles */
+/* General Body Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #3d3737;
     text-align: center;
+    box-sizing: border-box;
 }
 
 /* Navbar Styling */
 .navbar {
-    height: 100px;
+    height: 10vh; /* Adjusted to viewport height for responsive navbar */
     background-color: aqua;
-    padding: 10px 0;
+    padding: 1vh 0;
     position: relative;
     z-index: 1;
 }
 
 .icon {
     color: aliceblue;
-    font-size: 25px;
-    padding-left: 20px;
+    font-size: 2.5vh;
+    padding-left: 2vw;
     display: flex;
     align-items: center;
-    margin-top: 25px;
 }
 
     .icon img {
-        width: 15%;
+        width: 12%;
         height: auto;
         border-radius: 50%;
         margin-right: 10px;
     }
 
 .textlogo {
-    font-size: 2em;
-    margin-top: 60px;
+    font-size: 40px;
+    margin-top: 10vh;
 }
 
 .pvt {
-    margin-top: 80px;
+    margin-top:13vh;
 }
 
 .menu {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 1vh;
 }
 
     .menu ul {
@@ -54,20 +54,20 @@ body {
     }
 
         .menu ul li {
-            margin: 10px;
-            font-size: 16px;
+            margin: 0 1vw;
+            font-size: 20px;
         }
 
             .menu ul li a {
                 text-decoration: none;
                 color: #fff;
-                margin-left: 100px;
-                letter-spacing: 1.5px;
+                margin-left: 2vw;
+                letter-spacing: 1px;
                 transition: 0.2s ease-in-out;
             }
 
                 .menu ul li a:hover {
-                    font-size: 18px;
+                    font-size: 23px;
                     color: aquamarine;
                 }
 
@@ -78,103 +78,97 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 250px;
+    padding: 5vh 2vw;
+    margin-top:250px;
     background-image: url(Welcomepic.jpg);
     background-size: cover;
-    height: 550px;
+    background-position: center;
+    height: 80vh; /* Adjusted to viewport height */
     border-radius: 10px;
-    padding: 20px;
-    position: relative;
     color: white;
+    position: relative;
 }
 
     .Welcomediv h1 {
-        font-size: 2.5em;
-        color: #fff;
-        margin-bottom: 20px;
+        font-size: 5vh;
+        margin-bottom: 2vh;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     .Welcomediv p {
-        font-size: 1.2em;
+        font-size: 2.5vh;
         line-height: 1.5;
-        max-width: 800px;
+        max-width: 80vw;
         margin: 0 auto;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     }
 
 .button {
     display: inline-block;
-    padding: 17px 80px;
-    font-size: 16px;
-    letter-spacing: 1px;
+    padding: 1.5vh 4vw;
+    font-size: 2vh;
     color: #fff;
     background-color: #f65713;
     text-decoration: none;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 2vh;
     box-shadow: 0 0 20px #f86524;
     transition: background-color 0.2s ease-in-out, padding 0.2s ease-in-out;
 }
 
     .button:hover {
         background-color: orangered;
-        padding: 19px 85px;
-        font-size: 20px;
-        letter-spacing: 1.5px;
+        padding: 1.7vh 4.2vw;
+        font-size: 2.2vh;
     }
 
 /* Follow Us Social Media Icons */
-.followbtn h1 {
-    color:#fff;
-}
-
 .followbtn {
-    margin-top: 20px;
+    margin-top: 2vh;
     display: flex;
     justify-content: center;
-    gap: 80px;
-   margin-top:0px;
-    background-color:#ef6324;
-    padding-top:50px;
-    padding-bottom:50px;
+    gap: 5%;
+    background-color: #ef6324;
+    padding: 3vh 0;
 }
 
+    .followbtn h1 {
+        color: #fff;
+        font-size: 3vh;
+    }
+
 .social-icon {
-    font-size: 3.5em; /* Increased from 2.5em to 3.5em */
+    font-size: 5vh;
     transition: transform 0.3s ease-in-out;
 }
 
     .social-icon:hover {
-        transform: scale(1.15); /* Slightly increased hover effect */
+        transform: scale(1.15);
     }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .Welcomediv h1 {
-        font-size: 2em;
+        font-size: 4vh;
     }
 
     .Welcomediv p {
-        font-size: 1em;
+        font-size: 2vh;
     }
 
-    .planbtn {
-        font-size: 16px;
-    }
-
-    .menu ul li a {
-        margin-left: 30px;
+    .button {
+        font-size: 1.8vh;
+        padding: 1.2vh 3vw;
     }
 
     .social-icon {
-        font-size: 3em; /* Larger size for medium screens */
+        font-size: 4vh;
     }
 }
 
 @media (max-width: 480px) {
     .icon img {
-        width: 25%;
+        width: 20%;
     }
 
     .menu ul {
@@ -182,22 +176,23 @@ body {
     }
 
         .menu ul li {
-            margin: 5px 0;
+            margin: 1vh 0;
         }
 
     .Welcomediv h1 {
-        font-size: 1.5em;
+        font-size: 3.5vh;
     }
 
     .Welcomediv p {
-        font-size: 0.9em;
+        font-size: 1.8vh;
     }
 
-    .planbtn {
-        font-size: 14px;
+    .button {
+        font-size: 1.6vh;
+        padding: 1vh 2vw;
     }
 
     .social-icon {
-        font-size: 2.5em; /* Larger size for small screens */
+        font-size: 3.5vh;
     }
 }

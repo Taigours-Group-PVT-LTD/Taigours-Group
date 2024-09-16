@@ -1,0 +1,203 @@
+﻿/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3d3737;
+    text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    height: 100px;
+    background-color: aqua;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+    .icon img {
+        width: 15%;
+        height: auto;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+.textlogo {
+    font-size: 2em;
+    margin-top: 60px;
+}
+
+.pvt {
+    margin-top: 80px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 15px;
+}
+
+    .menu ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+        .menu ul li {
+            margin: 10px;
+            font-size: 16px;
+        }
+
+            .menu ul li a {
+                text-decoration: none;
+                color: #fff;
+                margin-left: 100px;
+                letter-spacing: 1.5px;
+                transition: 0.2s ease-in-out;
+            }
+
+                .menu ul li a:hover {
+                    font-size: 18px;
+                    color: aquamarine;
+                }
+
+/* Welcome Section */
+.Welcomediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 250px;
+    background-image: url(Welcomepic.jpg);
+    background-size: cover;
+    height: 550px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    color: white;
+}
+
+    .Welcomediv h1 {
+        font-size: 2.5em;
+        color: #fff;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .Welcomediv p {
+        font-size: 1.2em;
+        line-height: 1.5;
+        max-width: 800px;
+        margin: 0 auto;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+.button {
+    display: inline-block;
+    padding: 17px 80px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #f65713;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px #f86524;
+    transition: background-color 0.2s ease-in-out, padding 0.2s ease-in-out;
+}
+
+    .button:hover {
+        background-color: orangered;
+        padding: 19px 85px;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+
+/* Follow Us Social Media Icons */
+.followbtn h1 {
+    color:#fff;
+}
+
+.followbtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+   margin-top:0px;
+    background-color:#ef6324;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.social-icon {
+    font-size: 3.5em; /* Increased from 2.5em to 3.5em */
+    transition: transform 0.3s ease-in-out;
+}
+
+    .social-icon:hover {
+        transform: scale(1.15); /* Slightly increased hover effect */
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Welcomediv h1 {
+        font-size: 2em;
+    }
+
+    .Welcomediv p {
+        font-size: 1em;
+    }
+
+    .planbtn {
+        font-size: 16px;
+    }
+
+    .menu ul li a {
+        margin-left: 30px;
+    }
+
+    .social-icon {
+        font-size: 3em; /* Larger size for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .icon img {
+        width: 25%;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+        .menu ul li {
+            margin: 5px 0;
+        }
+
+    .Welcomediv h1 {
+        font-size: 1.5em;
+    }
+
+    .Welcomediv p {
+        font-size: 0.9em;
+    }
+
+    .planbtn {
+        font-size: 14px;
+    }
+
+    .social-icon {
+        font-size: 2.5em; /* Larger size for small screens */
+    }
+}

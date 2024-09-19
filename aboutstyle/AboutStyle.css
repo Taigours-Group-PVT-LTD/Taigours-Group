@@ -10,7 +10,7 @@ body {
 /* Navbar Styling */
 .navbar {
     height: 100px;
-    background-color: aqua;
+    background-color:#808080;
     padding: 10px 0;
     position: relative;
     z-index: 1;

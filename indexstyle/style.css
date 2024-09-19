@@ -11,7 +11,7 @@ body {
 /* Navbar Styling */
 .navbar {
     height: 10vh; /* Adjusted to viewport height for responsive navbar */
-    background-color: aqua;
+    background-color: #d1cfe2;
     padding: 1vh 0;
     position: relative;
     z-index: 1;

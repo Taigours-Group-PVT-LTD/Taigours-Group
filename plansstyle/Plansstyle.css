@@ -8,7 +8,7 @@
 
 .navbar {
     height: 100px;
-    background-color: aqua;
+    background-color:#808080;
     padding: 10px 0;
     position: relative; /* Ensure navbar's position is relative for better control */
     z-index: 1; /* Ensure navbar is above other content */

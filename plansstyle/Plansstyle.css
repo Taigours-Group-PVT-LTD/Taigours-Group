@@ -6,75 +6,66 @@
     text-align: center;
 }
 
+/* Navbar Styling */
 .navbar {
-    height: 100px;
+    height: 10vh; /* Adjusted to viewport height for responsive navbar */
     background-color:#808080;
-    padding: 10px 0;
-    position: relative; /* Ensure navbar's position is relative for better control */
-    z-index: 1; /* Ensure navbar is above other content */
+    padding: 1vh 0;
+    position: relative;
+    z-index: 1;
 }
 
 .icon {
-    color: aliceblue;
-    font-family: Arial;
-    font-size: 25px;
-    padding-left: 20px;
-    padding-bottom:10px;
-    margin: 5px;
+    color:aliceblue;
+    font-size: 2.5vh;
+    padding-left: 2vw;
     display: flex;
     align-items: center;
-    margin-top: 25px; /* Adjusted to give some space from the top */
-   
 }
 
     .icon img {
-        width: 15%;
+        width: 12%;
         height: auto;
         border-radius: 50%;
         margin-right: 10px;
     }
 
 .textlogo {
-    font-size: 2em;
-    margin-top: 60px; /* Adjusted to align better */
-    margin-right: 5px;
-    color:#fff;
+    font-size: 40px;
+    margin-top: 10vh;
 }
 
 .pvt {
-    padding-top: 10px;
-    margin-top: 80px; /* Adjusted to fit better */
+    margin-top:13vh;
 }
 
 .menu {
     text-align: center;
-    margin-top: 15px; /* Ensure menu is below the icon area */
+    margin-top: 1vh;
 }
 
     .menu ul {
         padding: 0;
         list-style: none;
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
     }
 
         .menu ul li {
-            margin: 10px;
-            font-size: 16px;
+            margin: 0 1vw;
+            font-size: 20px;
         }
 
             .menu ul li a {
                 text-decoration: none;
                 color: #fff;
-                font-family: Arial;
-                margin-left:100px;
-                letter-spacing:1.5px;
+                margin-left: 2vw;
+                letter-spacing: 1px;
                 transition: 0.2s ease-in-out;
             }
 
                 .menu ul li a:hover {
-                    font-size: 18px;
+                    font-size: 23px;
                     color: aquamarine;
                 }
 

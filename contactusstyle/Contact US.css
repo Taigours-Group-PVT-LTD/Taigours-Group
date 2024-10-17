@@ -71,11 +71,73 @@ body {
                     color: aquamarine;
                 }
 
-.Container {
-    background-color: #fff;
-    margin-top: 250px;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    cursor:pointer;
 }
 
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #00f0ff;
+    text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+    cursor:pointer;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+    .contact-info div {
+        background-color: #1a1a1a;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.4), inset 0 0 10px rgba(0, 255, 255, 0.5);
+        transition: transform 0.3s ease;
+        width: 300px;
+        color: #00f0ff;
+    }
+
+        .contact-info div:hover {
+            transform: scale(1.05); /* Slight zoom on hover */
+            box-shadow: 0 0 40px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.6), inset 0 0 20px rgba(0, 255, 255, 0.6);
+        }
+
+    .contact-info i {
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #00f0ff;
+        text-shadow: 0 0 10px #00f0ff;
+    }
+
+    .contact-info p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+.social-media {
+    margin-top: 30px;
+}
+
+    .social-media a {
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 40px;
+        color: #00f0ff;
+        text-shadow: 0 0 10px #00f0ff;
+    }
+
+        .social-media a:hover {
+            color: #00ffcc;
+            text-shadow: 0 0 20px #00ffcc;
+        }
 
 
 

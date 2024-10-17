@@ -77,7 +77,7 @@ body {
     cursor:pointer;
 }
 
-.main {
+.h1 main {
     font-size: 36px;
     margin-bottom: 20px;
     color: #00f0ff;
@@ -149,11 +149,11 @@ body {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 70px;
     margin-top: 0px;
     background-color: #ef6324;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .social-icon {
